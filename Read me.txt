@@ -1,0 +1,15 @@
+Problem:
+
+Ein magnetisiertes Objekt erzeugt ein magnetisches Vektorfeld im 3D Raum.
+Zwölf Sensoren können dieses Vektorfeld messen.
+Nun möchte man von den gemessenen Daten Rückschlüsse auf das Objekt machen:
+Orientierung, Ort, Form, Magnetisierungsstärke
+
+Zwischenziel:
+Ein NN soll von den zwölf Messdaten auf eine Dipolapproximation zurück führen.
+Heißt: 12x3 Daten als Input -> Orientierung des Dipols und Magnetstärke 
+(4dim Vektor als Output)
+
+Idee:
+
+Feedforward Netzwerk
